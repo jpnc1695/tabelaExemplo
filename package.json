@@ -3,18 +3,23 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "prisma": {
+      "seed":"ts-node prisma/seed.ts"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-  },
+  }, 
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@faker-js/faker": "^9.8.0",
     "@mui/icons-material": "^7.2.0",
     "@mui/material": "^7.2.0",
     "@mui/x-date-pickers": "^8.6.0",
+    "@prisma/client": "^6.10.1",
     "export-to-csv": "^1.4.0",
     "material-react-table": "^3.2.1",
     "react": "^19.1.0",
@@ -22,6 +27,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
+    "@types/node": "^24.0.7",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.5.2",
@@ -29,8 +35,13 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.2.0",
+    "i": "^0.3.7",
+    "npm": "^11.4.2",
+    "prisma": "^6.10.1",
+    "ts-node": "^10.9.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
     "vite": "^7.0.0"
   }
+
 }

@@ -6,8 +6,6 @@ import {
   
 } from 'material-react-table';
 import { Box, Button} from '@mui/material';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import { mkConfig, generateCsv, download } from 'export-to-csv';
 import { data, type Lojas } from './makeData';
@@ -22,7 +20,7 @@ const columns = [
     header: 'Nome da Loja',
     size: 120,
   }),
-  columnHelper.accessor('Franqueado', {
+  columnHelper.accessor('franqueado', {
     header: 'Franqueado',
     size: 120,
   }),
@@ -32,7 +30,7 @@ const columns = [
   columnHelper.accessor('Estado', {
     header: 'Estado',
   }),
-  columnHelper.accessor('DataDeInauguração', {
+  columnHelper.accessor('dataDeInauguracao', {
     header: 'Data de Inauguração',
     // Formatação da exibição
     Cell: ({ cell }) => cell.getValue<Date>()?.toLocaleDateString('pt-BR'),
@@ -60,11 +58,7 @@ const csvConfig = mkConfig({
 });
 const Example = () => {
 
-  const darkTheme = createTheme({
-    palette: {
-      mode: 'dark', // Define o tema como dark
-    },
-  });
+
 
 /*   const theme = useTheme();
   const baseBackgroundColor = theme.palette.background.default; */
@@ -72,7 +66,7 @@ const Example = () => {
   const handleExportRows = (rows: MRT_Row<Lojas>[]) => {
     const rowData = rows.map((row) => ({
       ...row.original,
-      DataDeInauguração: row.original.DataDeInauguração.toLocaleString() // Converte para formato YYYY-MM-DD
+      dataDeInauguracao: row.original.dataDeInauguracao.toLocaleString() // Converte para formato YYYY-MM-DD
     }));
     const csv = generateCsv(csvConfig)(rowData);
     download(csvConfig)(csv);
@@ -81,10 +75,10 @@ const Example = () => {
   const handleExportData = () => {
     const dataForExport = data.map(loja => ({
       'Nome da Loja': loja.nomeDaloja,
-      'Franqueado': loja.Franqueado,
+      'Franqueado': loja.franqueado ,
       'Cidade': loja.Cidade,
       'Estado': loja.Estado,
-      'Data de Inauguração': loja.DataDeInauguração.toLocaleString()
+      'Data de Inauguração': loja.dataDeInauguracao.toLocaleString()
     }));
     
     const csv = generateCsv(csvConfig)(dataForExport);

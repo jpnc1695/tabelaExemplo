@@ -1,220 +1,220 @@
 export type Lojas = {
   nomeDaloja: string;
-  Franqueado: string;
+  franqueado : string;
   Cidade: string;
   Estado: string;
-  DataDeInauguração: Date;
+  dataDeInauguracao : Date;
 };
 
 export const data: Lojas[] = [
   {
     nomeDaloja: 'Shopping Center Norte',
-    Franqueado: 'Carlos Silva',
+    franqueado : 'Carlos Silva',
     Cidade: 'São Paulo',
     Estado: 'SP',
-    DataDeInauguração: new Date('2015-03-15')
+    dataDeInauguracao: new Date('2015-03-15')
   },
   {
     nomeDaloja: 'Iguatemi Campinas',
-    Franqueado: 'Ana Oliveira',
+    franqueado : 'Ana Oliveira',
     Cidade: 'Campinas',
     Estado: 'SP',
-    DataDeInauguração: new Date('2018-07-22')
+    dataDeInauguracao: new Date('2018-07-22')
   },
   {
     nomeDaloja: 'RioMar Recife',
-    Franqueado: 'João Santos',
+    franqueado : 'João Santos',
     Cidade: 'Recife',
     Estado: 'PE',
-    DataDeInauguração: new Date('2012-11-05')
+    dataDeInauguracao: new Date('2012-11-05')
   },
   {
     nomeDaloja: 'Shopping Eldorado',
-    Franqueado: 'Maria Souza',
+    franqueado : 'Maria Souza',
     Cidade: 'São Paulo',
     Estado: 'SP',
-    DataDeInauguração: new Date('2019-05-30')
+    dataDeInauguracao: new Date('2019-05-30')
   },
   {
     nomeDaloja: 'Barra Shopping',
-    Franqueado: 'Pedro Costa',
+    franqueado : 'Pedro Costa',
     Cidade: 'Rio de Janeiro',
     Estado: 'RJ',
-    DataDeInauguração: new Date('2010-09-12')
+    dataDeInauguracao: new Date('2010-09-12')
   },
   {
     nomeDaloja: 'Shopping Ibirapuera',
-    Franqueado: 'Luiza Pereira',
+    franqueado : 'Luiza Pereira',
     Cidade: 'São Paulo',
     Estado: 'SP',
-    DataDeInauguração: new Date('2017-01-25')
+    dataDeInauguracao: new Date('2017-01-25')
   },
   {
     nomeDaloja: 'Pátio Belém',
-    Franqueado: 'Rafael Almeida',
+    franqueado : 'Rafael Almeida',
     Cidade: 'Belém',
     Estado: 'PA',
-    DataDeInauguração: new Date('2016-08-14')
+    dataDeInauguracao: new Date('2016-08-14')
   },
   {
     nomeDaloja: 'Shopping Curitiba',
-    Franqueado: 'Fernanda Lima',
+    franqueado : 'Fernanda Lima',
     Cidade: 'Curitiba',
     Estado: 'PR',
-    DataDeInauguração: new Date('2014-04-18')
+    dataDeInauguracao: new Date('2014-04-18')
   },
   {
     nomeDaloja: 'Bourbon Shopping',
-    Franqueado: 'Marcos Rocha',
+    franqueado : 'Marcos Rocha',
     Cidade: 'Porto Alegre',
     Estado: 'RS',
-    DataDeInauguração: new Date('2013-12-03')
+    dataDeInauguracao: new Date('2013-12-03')
   },
   {
     nomeDaloja: 'Shopping Vitória',
-    Franqueado: 'Patricia Mendes',
+    franqueado : 'Patricia Mendes',
     Cidade: 'Vitória',
     Estado: 'ES',
-    DataDeInauguração: new Date('2018-10-29')
+    dataDeInauguracao: new Date('2018-10-29')
   },
   {
     nomeDaloja: 'Shopping Midway Mall',
-    Franqueado: 'Ricardo Nunes',
+    franqueado : 'Ricardo Nunes',
     Cidade: 'Natal',
     Estado: 'RN',
-    DataDeInauguração: new Date('2011-06-17')
+    dataDeInauguracao: new Date('2011-06-17')
   },
   {
     nomeDaloja: 'Shopping Maceió',
-    Franqueado: 'Juliana Castro',
+    franqueado : 'Juliana Castro',
     Cidade: 'Maceió',
     Estado: 'AL',
-    DataDeInauguração: new Date('2019-02-21')
+    dataDeInauguracao: new Date('2019-02-21')
   },
   {
     nomeDaloja: 'Shopping Salvador',
-    Franqueado: 'Lucas Oliveira',
+    franqueado : 'Lucas Oliveira',
     Cidade: 'Salvador',
     Estado: 'BA',
-    DataDeInauguração: new Date('2017-09-08')
+    dataDeInauguracao: new Date('2017-09-08')
   },
   {
     nomeDaloja: 'Shopping Brasília',
-    Franqueado: 'Amanda Santos',
+    franqueado : 'Amanda Santos',
     Cidade: 'Brasília',
     Estado: 'DF',
-    DataDeInauguração: new Date('2015-11-11')
+    dataDeInauguracao: new Date('2015-11-11')
   },
   {
     nomeDaloja: 'Shopping Goiânia',
-    Franqueado: 'Gustavo Pereira',
+    franqueado : 'Gustavo Pereira',
     Cidade: 'Goiânia',
     Estado: 'GO',
-    DataDeInauguração: new Date('2016-05-04')
+    dataDeInauguracao: new Date('2016-05-04')
   },
   {
     nomeDaloja: 'Shopping Manaus',
-    Franqueado: 'Camila Costa',
+    franqueado : 'Camila Costa',
     Cidade: 'Manaus',
     Estado: 'AM',
-    DataDeInauguração: new Date('2014-07-19')
+    dataDeInauguracao: new Date('2014-07-19')
   },
   {
     nomeDaloja: 'Shopping Florianópolis',
-    Franqueado: 'Rodrigo Alves',
+    franqueado : 'Rodrigo Alves',
     Cidade: 'Florianópolis',
     Estado: 'SC',
-    DataDeInauguração: new Date('2018-03-27')
+    dataDeInauguracao: new Date('2018-03-27')
   },
   {
     nomeDaloja: 'Shopping Belo Horizonte',
-    Franqueado: 'Tatiane Martins',
+    franqueado : 'Tatiane Martins',
     Cidade: 'Belo Horizonte',
     Estado: 'MG',
-    DataDeInauguração: new Date('2013-10-15')
+    dataDeInauguracao: new Date('2013-10-15')
   },
   {
     nomeDaloja: 'Shopping Recife',
-    Franqueado: 'Felipe Souza',
+    franqueado : 'Felipe Souza',
     Cidade: 'Recife',
     Estado: 'PE',
-    DataDeInauguração: new Date('2017-12-05')
+    dataDeInauguracao: new Date('2017-12-05')
   },
   {
     nomeDaloja: 'Shopping Fortaleza',
-    Franqueado: 'Vanessa Lima',
+    franqueado : 'Vanessa Lima',
     Cidade: 'Fortaleza',
     Estado: 'CE',
-    DataDeInauguração: new Date('2016-09-23')
+    dataDeInauguracao: new Date('2016-09-23')
   },
   {
     nomeDaloja: 'Shopping Ribeirão Preto',
-    Franqueado: 'Diego Silva',
+    franqueado : 'Diego Silva',
     Cidade: 'Ribeirão Preto',
     Estado: 'SP',
-    DataDeInauguração: new Date('2019-08-14')
+    dataDeInauguracao: new Date('2019-08-14')
   },
   {
     nomeDaloja: 'Shopping São Luís',
-    Franqueado: 'Carolina Rocha',
+    franqueado : 'Carolina Rocha',
     Cidade: 'São Luís',
     Estado: 'MA',
-    DataDeInauguração: new Date('2015-04-30')
+    dataDeInauguracao: new Date('2015-04-30')
   },
   {
     nomeDaloja: 'Shopping Campo Grande',
-    Franqueado: 'Bruno Costa',
+    franqueado : 'Bruno Costa',
     Cidade: 'Campo Grande',
     Estado: 'MS',
-    DataDeInauguração: new Date('2018-06-12')
+    dataDeInauguracao: new Date('2018-06-12')
   },
   {
     nomeDaloja: 'Shopping João Pessoa',
-    Franqueado: 'Isabela Santos',
+    franqueado : 'Isabela Santos',
     Cidade: 'João Pessoa',
     Estado: 'PB',
-    DataDeInauguração: new Date('2017-03-08')
+    dataDeInauguracao: new Date('2017-03-08')
   },
   {
     nomeDaloja: 'Shopping Aracaju',
-    Franqueado: 'Leonardo Oliveira',
+    franqueado : 'Leonardo Oliveira',
     Cidade: 'Aracaju',
     Estado: 'SE',
-    DataDeInauguração: new Date('2016-11-25')
+    dataDeInauguracao: new Date('2016-11-25')
   },
   {
     nomeDaloja: 'Shopping Cuiabá',
-    Franqueado: 'Mariana Almeida',
+    franqueado : 'Mariana Almeida',
     Cidade: 'Cuiabá',
     Estado: 'MT',
-    DataDeInauguração: new Date('2019-01-17')
+    dataDeInauguracao: new Date('2019-01-17')
   },
   {
     nomeDaloja: 'Shopping Teresina',
-    Franqueado: 'Paulo Mendes',
+    franqueado : 'Paulo Mendes',
     Cidade: 'Teresina',
     Estado: 'PI',
-    DataDeInauguração: new Date('2014-08-09')
+    dataDeInauguracao: new Date('2014-08-09')
   },
   {
     nomeDaloja: 'Shopping Londrina',
-    Franqueado: 'Larissa Castro',
+    franqueado : 'Larissa Castro',
     Cidade: 'Londrina',
     Estado: 'PR',
-    DataDeInauguração: new Date('2017-07-21')
+    dataDeInauguracao: new Date('2017-07-21')
   },
   {
     nomeDaloja: 'Shopping Niterói',
-    Franqueado: 'Thiago Pereira',
+    franqueado : 'Thiago Pereira',
     Cidade: 'Niterói',
     Estado: 'RJ',
-    DataDeInauguração: new Date('2015-12-14')
+    dataDeInauguracao: new Date('2015-12-14')
   },
   {
     nomeDaloja: 'Shopping Vitória da Conquista',
-    Franqueado: 'Daniela Lima',
+    franqueado : 'Daniela Lima',
     Cidade: 'Vitória da Conquista',
     Estado: 'BA',
-    DataDeInauguração: new Date('2018-04-03')
+    dataDeInauguracao: new Date('2018-04-03')
   }
 ];
